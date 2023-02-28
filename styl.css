@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(126, 211, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 450px;
+    width: 410px;
+    border-radius: 30px;
+}
+
+
+/* *************************************************** Profile Image *************************************************** */
+
+.profileImage {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 105px;
+    z-index: 1;
+}
+
+.profileImage img{
+    border: 3px solid white;
+    border-radius: 100%;
+    height: 100px;
+}
+
+
+/* *************************************************** Top Section *************************************************** */
+
+.top {
+    background-image: url("images/wallpaperflare.com_wallpaper\ \(11\).jpg");
+    background-size: cover;
+    background-position: left;
+    height: 35%;
+    border-radius: 25px 25px 0 0;
+}
+
+
+/* *************************************************** Middle Section *************************************************** */
+
+.middle {
+    background-color: white;
+    height: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameText {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.ageText {
+    font-weight: 400;
+    color: grey;
+}
+
+.statusText {
+    color: grey;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cityText {
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 18px;
+    color: grey;
+}
+
+
+/* *************************************************** Bottom Section *************************************************** */
+
+.bottom {
+    background-color: white;
+    height: 23%;
+    border-radius: 0 0 25px 25px;
+    border-top: 1px solid rgba(97, 96, 96, 0.295);
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.numberCount {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.numberTag {
+    color: grey;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 8px;
+}
